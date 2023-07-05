@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+  }
+  .form {
+    max-width: 500px;
+    margin: 0 auto;
+    /* background-color: #4CAF50; */
+      padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  h1 {
+    text-align: center;
+    
+  }
+  #taskId {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #add {
+    background-color: darkorange;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #add:hover {
+    background-color: black;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .task input[type="text"] {
+    flex: 1;
+    height: 100px;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  .task button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  #button2 {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  #listing {
+    margin-top: 10px;
+    color: green;
+    display: none;
+  }
